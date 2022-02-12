@@ -60,3 +60,7 @@ p {
     font-size: 1.8rem;
   }
 }
+/*Lists*/
+ul {
+  list-style: none;
+}
