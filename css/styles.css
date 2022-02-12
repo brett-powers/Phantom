@@ -8,3 +8,10 @@
   --color-lavendar: #ae85ca;
   --color-white: #fff;
 }
+/*Typography*/
+body {
+  font-family: source sans pro, Arial, Helvetica, sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
