@@ -39,3 +39,23 @@ p {
   font-size: 1.6rem;
   line-height: 1.5;
 }
+@media screen and (min-width: 750px) {
+  h1 {
+    font-size: 4.3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1250px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2,
+  h3 {
+    font-size: 2.3rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+}
