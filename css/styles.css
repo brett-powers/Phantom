@@ -90,3 +90,25 @@ li > a {
     font-size: 5rem;
   }
 }
+/*Icons*/
+.icon__list {
+  gap: 2rem;
+  display: flex;
+  margin-top: 5rem;
+}
+.icon {
+  border: 1px solid #b1b1b1;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: color 0.3s;
+}
+.icon:hover {
+  color: var(--color-pink);
+}
+.icon > a {
+  font-size: 18px;
+}
