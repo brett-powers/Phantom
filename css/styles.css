@@ -192,3 +192,41 @@ input:focus {
     margin-top: 100px;
   }
 }
+/*Main*/
+main {
+  margin-top: 30px;
+}
+.main__container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  color: var(--color-white);
+  border-radius: 5px;
+}
+.main__grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 130px);
+  grid-template-rows: repeat(6, 130px);
+  justify-content: center;
+  justify-items: center;
+}
+.main__pink {
+  background: var(--color-pink);
+}
+.main__blue {
+  background: var(--color-light-blue);
+}
+.main__greenish-blue {
+  background: var(--color-greenish-blue);
+}
+.main__purple {
+  background: var(--color-pruple);
+}
+.main__lavander {
+  background: var(--color-lavendar);
+}
+.main__dark-blue {
+  background: var(--color-darker-blue);
+}
