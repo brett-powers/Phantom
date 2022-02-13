@@ -12,6 +12,16 @@
 body {
   margin: 0 30px;
 }
+@media screen and (min-width: 750px) {
+  body {
+    margin: 0 45px;
+  }
+}
+@media screen and (min-width: 1250px) {
+  body {
+    margin: 0 90px;
+  }
+}
 /*Typography*/
 body {
   font-family: source sans pro, Arial, Helvetica, sans-serif;
