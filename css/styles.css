@@ -8,10 +8,13 @@
   --color-lavendar: #ae85ca;
   --color-white: #fff;
 }
+/*Layout*/
+body {
+  margin: 0 30px;
+}
 /*Typography*/
 body {
   font-family: source sans pro, Arial, Helvetica, sans-serif;
-  margin: 0 30px;
 }
 html {
   font-size: 62.5%;
