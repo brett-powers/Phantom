@@ -11,6 +11,7 @@
 /*Typography*/
 body {
   font-family: source sans pro, Arial, Helvetica, sans-serif;
+  margin: 0 30px;
 }
 html {
   font-size: 62.5%;
@@ -162,5 +163,19 @@ input:focus {
     font-size: 1.6rem;
     letter-spacing: 4px;
     padding: 17px 27px;
+  }
+}
+/*Hero*/
+.hero {
+  margin-top: 50px;
+}
+@media screen and (min-width: 750px) {
+  .hero {
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .hero {
+    margin-top: 100px;
   }
 }
