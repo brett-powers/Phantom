@@ -112,3 +112,31 @@ li > a {
 .icon > a {
   font-size: 18px;
 }
+/*Inputs*/
+input,
+.input__message,
+::placeholder {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--color-primary);
+  padding-bottom: 5px;
+  font-size: 1.6rem;
+}
+.input__email {
+  margin-left: 20px;
+}
+.input__message {
+  width: 100%;
+  margin-top: 30px;
+}
+input:focus {
+  border-bottom: 2px solid var(--color-pink);
+}
+@media screen and (min-width: 1250px) {
+  input,
+  ::placeholder {
+    font-size: 1.8rem;
+  }
+}
