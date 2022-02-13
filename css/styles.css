@@ -165,3 +165,17 @@ input:focus {
     padding: 17px 27px;
   }
 }
+/*Hero*/
+.hero {
+  margin-top: 50px;
+}
+@media screen and (min-width: 750px) {
+  .hero {
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .hero {
+    margin-top: 100px;
+  }
+}
