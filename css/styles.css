@@ -11,6 +11,7 @@
 /*Typography*/
 body {
   font-family: source sans pro, Arial, Helvetica, sans-serif;
+  margin: 0 30px;
 }
 html {
   font-size: 62.5%;
