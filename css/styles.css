@@ -230,3 +230,39 @@ main {
 .main__dark-blue {
   background: var(--color-darker-blue);
 }
+@media screen and (min-width: 550px) {
+  .main__container {
+    width: 230px;
+  }
+  .main__grid {
+    grid-template-rows: repeat(6, 230px);
+    grid-template-columns: repeat(2, 230px);
+  }
+}
+@media screen and (min-width: 675px) {
+  .main__container {
+    width: 300px;
+  }
+  .main__grid {
+    grid-template-rows: repeat(6, 300px);
+    grid-template-columns: repeat(2, 300px);
+  }
+}
+@media screen and (min-width: 985px) {
+  main {
+    margin-top: 50px;
+  }
+  .main__container {
+    width: 300px;
+  }
+  .main__grid {
+    grid-template-rows: repeat(4, 300px);
+    grid-template-columns: repeat(3, 300px);
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .main__grid {
+    gap: 50px;
+  }
+}
