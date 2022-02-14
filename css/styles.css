@@ -108,6 +108,7 @@ li > a {
   gap: 2rem;
   display: flex;
   margin-top: 5rem;
+  padding: 0;
 }
 .icon {
   border: 1px solid #b1b1b1;
@@ -264,4 +265,8 @@ main {
   .main__grid {
     gap: 50px;
   }
+}
+/*Footer*/
+footer {
+  background: #ebebeb;
 }
