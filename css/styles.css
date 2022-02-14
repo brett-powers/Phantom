@@ -46,7 +46,6 @@ h2 {
   font-weight: 900;
 }
 h3 {
-  color: var(--color-white);
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -109,6 +108,7 @@ li > a {
   gap: 2rem;
   display: flex;
   margin-top: 5rem;
+  padding: 0;
 }
 .icon {
   border: 1px solid #b1b1b1;
@@ -130,6 +130,7 @@ li > a {
 input,
 .input__message,
 ::placeholder {
+  background: inherit;
   width: 200px;
   height: 30px;
   outline: none;
@@ -265,4 +266,19 @@ main {
   .main__grid {
     gap: 50px;
   }
+}
+/*Footer*/
+footer {
+  background: #ebebeb;
+  margin-top: 50px;
+}
+.footer__media {
+  padding: 50px 0;
+}
+.footer__inputs {
+  padding-bottom: 50px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-;
 }
