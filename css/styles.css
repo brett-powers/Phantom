@@ -270,4 +270,15 @@ main {
 /*Footer*/
 footer {
   background: #ebebeb;
+  margin-top: 50px;
+}
+.footer__media {
+  padding: 50px 0;
+}
+.footer__inputs {
+  padding-bottom: 50px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-;
 }
